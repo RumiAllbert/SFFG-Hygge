@@ -18,20 +18,20 @@ let front = true;
 var data = [
   {
     "text": "\
-    <strong>Fun:</strong> Do you think you will get married one day?<br>\
-    <strong>Life:</strong> What is one of your biggest regrets?<br>\
+    <strong>Fun:</strong> Do you think you will get married one day?<br><br>\
+    <strong>Life:</strong> What is one of your biggest regrets?<br><br>\
     <strong>Cultivation:</strong> If you were to name one of your biggest attachments, what would it be?"
   },
   {
     "text": "\
-    <strong>Fun:</strong> If you could set one rule that all generation Z have to follow, what would it be?<br>\
-    <strong>Life:</strong> What is your favorite movie?<br>\
+    <strong>Fun:</strong> If you could set one rule that all generation Z have to follow, what would it be?<br><br>\
+    <strong>Life:</strong> What is your favorite movie?<br><br>\
     <strong>Cultivation:</strong> Is there anything you truly don’t understand in ZFL and always wanted to ask?"
   },
   {
     "text": "\
-    <strong>Fun:</strong> If you could have one superpower what would it be?<br>\
-    <strong>Life:</strong> Is 20 too young to get married?<br>\
+    <strong>Fun:</strong> If you could have one superpower what would it be?<br><br>\
+    <strong>Life:</strong> Is 20 too young to get married?<br><br>\
     <strong>Cultivation:</strong> Are there any habits you know you need to give up, but you consciously continue doing?"
   }
 ]

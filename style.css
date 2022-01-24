@@ -10,7 +10,9 @@ body{
 	transition-timing-function: ease-in;
 	background-image: linear-gradient(to right bottom, #2c59e1fc, #92a9d2a8);
 }
-	
+#logo {
+
+}	
 .question-box{
 	padding:3rem;
 	transition: 0.5s;
