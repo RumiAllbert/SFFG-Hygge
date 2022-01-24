@@ -11,14 +11,14 @@ body{
 	background-image: linear-gradient(to right bottom, #2c59e1fc, #92a9d2a8);
 }
 	
-.quote-box{
+.question-box{
 	padding:3rem;
 	transition: 0.5s;
 	transition-timing-function: ease-in;
 }
 	
 .text{
-	font-size:30px;
+	font-size:25px;
 	padding-left:10px;
 	transition: 0.5s;
 	transition-timing-function: ease-in;
@@ -28,12 +28,12 @@ body{
 	-webkit-background-clip: text;
 }
 
-.quote{
+.question{
 	transition: 0.5s;
 	transition-timing-function: ease-in;
 }
 
-.new-quote{
+.new-question{
 	font-size:15px;
 	border-radius: 5px;
 	cursor:pointer;
@@ -47,22 +47,9 @@ body{
 	text-align: center;
 }
 	
-.new-quote:hover{
+.new-question:hover{
 	opacity: 0.6;
-}
-
-.author{
-	margin:10px;
-	font-size:20px;
-	transition: 0.5s;
-	transition-timing-function: ease-in;
-	font-family: 'Open Sans Condensed', sans-serif;
-	background-image: linear-gradient(to right bottom, #28313B,#485461
-	);
-	color: transparent;
-	-webkit-background-clip: text;
-}
-	
+}	
 	
 p{
 	margin-top: 5px;
