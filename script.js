@@ -1,6 +1,20 @@
 
 // var data;
 let front = true;
+
+// var fun = [
+// 	"Do you think you will get married one day?", 
+// 	"If you could set one rule that all generation Z have to follow, what would it be?",
+//  	"If you could have one superpower what would it be?"]
+// var life = [
+// 	"What is one of your biggest regrets?", 
+// 	"What is your favorite movie?",
+// 	"Is 20 too young to get married?"]
+// var cultivation = [
+// 	"If you were to name one of your biggest attachments, what would it be?",
+// 	"Is there anything you truly don’t understand in ZFL and always wanted to ask?",
+// 	"Are there any habits you know you need to give up, but you consciously continue doing?"
+// ]
 var data = [
   {
     "text": "\
@@ -21,7 +35,6 @@ var data = [
     <strong>Cultivation:</strong> Are there any habits you know you need to give up, but you consciously continue doing?"
   }
 ]
-console.log(data);
 
 // Getting the front and the back texts
 const texts = document.querySelectorAll(".text");
@@ -32,8 +45,8 @@ const body = document.getElementById("body");
 // Getting the buttons
 const button = document.querySelectorAll(".new-question");
 
-const blockFront = document.querySelector(".block__front");
-const blockBack = document.querySelector(".block__back");
+const blockFront = document.querySelector(".block_front");
+const blockBack = document.querySelector(".block_back");
 
 const textFront = texts[0];
 const textBack = texts[1];

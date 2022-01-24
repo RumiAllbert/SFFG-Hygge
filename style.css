@@ -18,7 +18,7 @@ body{
 }
 	
 .text{
-	font-size:25px;
+	font-size:23px;
 	padding-left:10px;
 	transition: 0.5s;
 	transition-timing-function: ease-in;
@@ -49,6 +49,18 @@ body{
 	
 .new-question:hover{
 	opacity: 0.6;
+}
+
+.author{
+margin:10px;
+font-size:20px;
+transition: 0.5s;
+transition-timing-function: ease-in;
+font-family: 'Open Sans Condensed', sans-serif;
+background-image: linear-gradient(to right bottom, #28313B,#485461
+);
+color: transparent;
+-webkit-background-clip: text;
 }
 	
 p{
