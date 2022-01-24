@@ -8,7 +8,7 @@ body{
 	min-height:100vh;
 	transition: 0.5s;
 	transition-timing-function: ease-in;
-	background-image: linear-gradient(to right bottom, #2c59e1fc, #92aad2);
+	background-image: linear-gradient(to right bottom, #2c59e1fc, #92a9d2a8);
 }
 #logo {
 	margin:auto; /* Required */
@@ -32,10 +32,9 @@ body{
 	transition: 0.5s;
 	transition-timing-function: ease-in;
 	/* font-family: 'Roboto', sans-serif; */
-	/* background-image: linear-gradient(to right bottom, #ed4264a8, #ffedbca8); */
+	background-image: linear-gradient(to right bottom, #ed4264a8, #ffedbca8);
 	color: black;
-	background-clip: text;
-	/* -webkit-background-clip: text; */
+	-webkit-background-clip: text;
 }
 
 .question{
@@ -95,7 +94,7 @@ p{
 	backface-visibility: hidden;
 	box-shadow: 0rem 1.5rem 4rem rgba(0, 0, 0, 0.15);
 	border-radius: .5rem;
-	background-image: linear-gradient(to right bottom, hsl(0, 0%, 100%),#e3cfc1);
+	background-image: linear-gradient(to right bottom, hsl(0, 0%, 100%),#F1DFD1);
 }
 
 .block_back {
