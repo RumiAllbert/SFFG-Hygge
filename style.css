@@ -23,7 +23,7 @@ body{
 	transition: 0.5s;
 	transition-timing-function: ease-in;
 	font-family: 'Roboto', sans-serif;
-	/* background-image: linear-gradient(to right bottom, #ed4264a8, #ffedbca8); */
+	background-image: linear-gradient(to right bottom, #ed4264a8, #ffedbca8);
 	color: black;
 	-webkit-background-clip: text;
 }
@@ -49,7 +49,7 @@ body{
 	
 .new-question:hover{
 	opacity: 0.6;
-}	
+}
 	
 p{
 	margin-top: 5px;

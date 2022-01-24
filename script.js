@@ -3,9 +3,6 @@
 let front = true;
 let data = [{text: '<li>What do you consider to be the most critical attachment in other practitioners?<div><li>Have you ever intervened in a conflict between practitioners? How did it go?<br><li>What is the biggest difference between YPs and veteran practitioners?' }]
 
-// Getting the front and the back author boxes
-const authors = document.querySelectorAll(".author");
-
 // Getting the front and the back texts
 const texts = document.querySelectorAll(".text");
 
@@ -13,13 +10,10 @@ const texts = document.querySelectorAll(".text");
 const body = document.getElementById("body");
 
 // Getting the buttons
-const button = document.querySelectorAll(".new-quote");
+const button = document.querySelectorAll(".new-question");
 
 const blockFront = document.querySelector(".block__front");
 const blockBack = document.querySelector(".block__back");
-
-const authorFront = authors[0];
-const authorBack = authors[1];
 
 const textFront = texts[0];
 const textBack = texts[1];
@@ -28,34 +22,22 @@ const buttonFront = button[0];
 const buttonBack = button[1];
 
 
-// An arrow function used to get a quote randomly
+// An arrow function used to get a question randomly
 const displayQuote = () =>{
 
 	// Generates a random number between 0
 	// and the length of the dataset
 	let index = Math.floor(Math.random()*data.length);
 
-	// Stores the quote present at the randomly generated index
+	// Stores the question present at the randomly generated index
 	let quote = data[index].text;
-
-	// Stores the author of the respective quote
-	// let author = data[index].author;
-
-	// Making the author anonymous if no author is present
-	// if(!author){
-	// 	author = "Anonymous"
-	// }
-
-	// Replacing the current quote and the author with a new one
 
 	if(front){
 		// Changing the front if back-side is displayed
 		textFront.innerHTML = quote;
-		// authorFront.innerHTML = author;
 	}else{
 		// Changing the back if front-side is displayed
 		textBack.innerHTML = quote;
-		// authorBack.innerHTML = author;
 	}
 	
 	front = !front;
