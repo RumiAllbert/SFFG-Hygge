@@ -3,77 +3,78 @@
 <head>
 	<!-- Loading The Bootstrap Library -->
 	<link rel="stylesheet"
-		href=
-"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-		integrity=
-"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-		crossorigin="anonymous"/>
-
+	href=
+	"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	integrity=
+	"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	crossorigin="anonymous"/>
+	
 	<!-- Loading Icons From Font Awesome -->
 	<link rel="stylesheet"
-		href=
-"https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-		integrity=
-"sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-		crossorigin="anonymous">
-
+	href=
+	"https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+	integrity=
+	"sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+	crossorigin="anonymous">
+	
 	<!-- Linking CSS File -->
 	<link rel="stylesheet" href="style.css"/>
-
+	
 	<!-- Loading Roboto Font from Google Fonts -->
 	<link href=
-"https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-		rel="stylesheet">
-
+	"https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+	rel="stylesheet">
+	
 	<!-- Loading Open Sans Font from Google Fonts -->
 	<link href=
-"https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
-		rel="stylesheet">
+	"https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
+	rel="stylesheet">
 	
 </head>
 
 <body id="body">
-
+	
 	<!-- question Box -->
 	<div class="block text-center">
-
-	<!-- Front part of the question Box -->
-	<div class = "question-box block__main block__front">
-
-	<!-- question to be Displayed Here -->
-	<span class = "questions">
-		<!-- question Text -->
-		<span class = "text">
-		Questions To be Displayed Here
-		</span>
-
-	</span>
 		
-	<a class = "new-question btn btn-default"
-		onclick="newQuestion()">New Card</a>
-	</div>
-
-	<!-- Back Part of the question Box -->
-	<div class = "question-box block__main block__back">
-
-	<!-- question to be Displayed Here -->
-	<span class = "question">
-		<!-- question Text -->
-		<span class = "text">
-		Questions To be Displayed Here
-		</span>
-
-	</span>
-	</div>
+		<!-- Front part of the question Box -->
+		<div class = "question-box block_main block_front">
+			
+			<!-- question to be Displayed Here -->
+			<span class = "questions">
+				<i class="fas fa-2x "></i>
+				<!-- question Text -->
+				<span class = "text">
+					Questions To be Displayed Here
+				</span>
+				
+			</span>
+			<a class = "new-question btn btn-default"
+			onclick="newQuestion()">New Card</a>
+		</div>
+		
+		<!-- Back Part of the question Box -->
+		<div class = "question-box block_main block_back">
+			
+			<!-- question to be Displayed Here -->
+			<span class = "question">
+				<i class="fas fa-2x "></i>
+				<!-- question Text -->
+				<span class = "text">
+					Questions To be Displayed Here
+				</span>
+				
+			</span>
+		</div>
 		<!-- Button -->
 		<a class = "new-question btn btn-default "
-			onclick="newQuestion()">New Card</a>
+		onclick="newQuestion()">New Card</a>
 	</div>
 </div>
 </div>
-	
+
 <!-- Linking Your JavaScript File -->
 <script src="script.js"></script>
 </body>
-	
+
 </html>

@@ -22,7 +22,7 @@ body{
 	padding-left:10px;
 	transition: 0.5s;
 	transition-timing-function: ease-in;
-	font-family: 'Roboto', sans-serif;
+	/* font-family: 'Roboto', sans-serif; */
 	background-image: linear-gradient(to right bottom, #ed4264a8, #ffedbca8);
 	color: black;
 	-webkit-background-clip: text;
@@ -60,13 +60,13 @@ p{
 }
 
 .block {
-perspective: 150rem;
-position: absolute;
-top:25%;
-left: 27%;
+	perspective: 150rem;
+	position: absolute;
+	top:25%;
+	left: 27%;
 }
 
-.block__main {
+.block_main {
 	min-width: 45vw;
 	position: absolute;
 	transition: all .8s ease;
@@ -76,7 +76,7 @@ left: 27%;
 	background-image: linear-gradient(to right bottom, hsl(30, 40%, 94%),#F1DFD1);
 }
 
-.block__back {
+.block_back {
 	transform: rotateY(180deg);
 }
 

@@ -1,7 +1,27 @@
 
 // var data;
 let front = true;
-var data
+var data = [
+  {
+    "text": "\
+    <strong>Fun:</strong> Do you think you will get married one day?<br>\
+    <strong>Life:</strong> What is one of your biggest regrets?<br>\
+    <strong>Cultivation:</strong> If you were to name one of your biggest attachments, what would it be?"
+  },
+  {
+    "text": "\
+    <strong>Fun:</strong> If you could set one rule that all generation Z have to follow, what would it be?<br>\
+    <strong>Life:</strong> What is your favorite movie?<br>\
+    <strong>Cultivation:</strong> Is there anything you truly don’t understand in ZFL and always wanted to ask?"
+  },
+  {
+    "text": "\
+    <strong>Fun:</strong> If you could have one superpower what would it be?<br>\
+    <strong>Life:</strong> Is 20 too young to get married?<br>\
+    <strong>Cultivation:</strong> Are there any habits you know you need to give up, but you consciously continue doing?"
+  }
+]
+console.log(data);
 
 // Getting the front and the back texts
 const texts = document.querySelectorAll(".text");
@@ -43,20 +63,21 @@ const displayQuestion = () =>{
 }
 
 displayQuestion()
-// Fetching the quotes from the type.fit API using promises
-fetch("questions.json")
-	.then(function(response) {
-		return response.json();
-	}) // Getting the raw JSON data
-	.then(function(data) {
 
-		// Storing the questions internally upon
-		// successful completion of request
-		this.data = data;
+// fetch("/questions.json")
+// 	.then(function(response) {
+// 		return response.json();
+// 	}) // Getting the raw JSON data
+// 	.then(function(data) {
 
-		// Displaying the quote When the Webpage loads
-		displayQuestion()
-});
+// 		// Storing the questions internally upon
+// 		// successful completion of request
+// 		this.data = data;
+// 		console.log(data);
+
+// 		// Displaying the quote When the Webpage loads
+// 		displayQuestion()
+// });
 
 
 // Adding an onclick listener for the button
