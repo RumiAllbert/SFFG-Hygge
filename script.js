@@ -1,5 +1,4 @@
-// Global Variable used to store the quotes
-// fetched from the API
+
 // var data;
 let front = true;
 let data = [{text: '<li>What do you consider to be the most critical attachment in other practitioners?<div><li>Have you ever intervened in a conflict between practitioners? How did it go?<br><li>What is the biggest difference between YPs and veteran practitioners?' }]
