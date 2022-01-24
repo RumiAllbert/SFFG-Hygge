@@ -11,6 +11,13 @@ body{
 	background-image: linear-gradient(to right bottom, #2c59e1fc, #92a9d2a8);
 }
 #logo {
+	margin:auto; /* Required */
+	position:absolute; /* Required */
+	bottom:5%;
+	left:0;right:0; 
+	max-height:100%; 
+	max-width:100%;
+	height:25%;
 
 }	
 .question-box{
@@ -101,3 +108,4 @@ transform: rotateY(-180deg);
 .rotateB{
 transform: rotate(0deg);
 }
+
