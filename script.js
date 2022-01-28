@@ -150,15 +150,19 @@ const displayQuestion = () =>{
 	if(front){
 		// Changing the front if back-side is displayed
 		textFront.innerHTML = questions;
-		textBack.innerHTML = null;
-		blockFront.hidden = false
-		blockBack.hidden = true
+		// textBack.innerHTML = null;
+		// blockFront.hidden = false;
+		// blockBack.hidden = true;
+        blockBack.style.zIndex = -1;
+        blockFront.style.zIndex = 1;
 	}else{
 		// Changing the back if front-side is displayed
 		textBack.innerHTML = questions;
-		textFront.innerHTML = null;
-		blockFront.hidden = true
-		blockBack.hidden = false
+		// textFront.innerHTML = null;
+		// blockFront.hidden = true;
+		// blockBack.hidden = false;
+        blockFront.style.zIndex = -1;
+        blockBack.style.zIndex = 1;
 	}
 	front = !front;
 }

@@ -13,10 +13,11 @@ body{
 #logo {
 	margin:auto; /* Required */
 	position:absolute; /* Required */
-	bottom:2%;
-	left:0;right:0; 
-	max-height:100%; 
-	max-width:100%;
+	top:2%;
+	left:0;
+	right:0;
+	max-height:22%;
+	max-width:22%;
 	height:25%;
 
 }	
@@ -24,6 +25,7 @@ body{
 	padding:3rem;
 	transition: 0.5s;
 	transition-timing-function: ease-in;
+	position: absolute;
 }
 	
 .text{
