@@ -1,6 +1,20 @@
 
 // var data;
 let front = true;
+
+// var fun = [
+// 	"Do you think you will get married one day?", 
+// 	"If you could set one rule that all generation Z have to follow, what would it be?",
+//  	"If you could have one superpower what would it be?"]
+// var life = [
+// 	"What is one of your biggest regrets?", 
+// 	"What is your favorite movie?",
+// 	"Is 20 too young to get married?"]
+// var cultivation = [
+// 	"If you were to name one of your biggest attachments, what would it be?",
+// 	"Is there anything you truly don’t understand in ZFL and always wanted to ask?",
+// 	"Are there any habits you know you need to give up, but you consciously continue doing?"
+// ]
 var data = [
   {
     "text": "\
@@ -116,6 +130,7 @@ var data = [
     <strong>Life:</strong> What is one of your biggest regrets?<br><br>\
     <strong>Cultivation:</strong> When was the last time your attachment to qing was tested?"
   },
+
 ]
 
 // Getting the front and the back texts
@@ -150,19 +165,15 @@ const displayQuestion = () =>{
 	if(front){
 		// Changing the front if back-side is displayed
 		textFront.innerHTML = questions;
-		// textBack.innerHTML = null;
-		// blockFront.hidden = false;
-		// blockBack.hidden = true;
-        blockBack.style.zIndex = -1;
-        blockFront.style.zIndex = 1;
+		textBack.innerHTML = null;
+		blockFront.hidden = false
+		blockBack.hidden = true
 	}else{
 		// Changing the back if front-side is displayed
 		textBack.innerHTML = questions;
-		// textFront.innerHTML = null;
-		// blockFront.hidden = true;
-		// blockBack.hidden = false;
-        blockFront.style.zIndex = -1;
-        blockBack.style.zIndex = 1;
+		textFront.innerHTML = null;
+		blockFront.hidden = true
+		blockBack.hidden = false
 	}
 	front = !front;
 }
