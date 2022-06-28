@@ -9,4 +9,4 @@ Each card contains three questions:
 
 Go through the questions as a group, and click 'New Card' when all questions have been answered, or there is a need for a new card.
 
-Enjoy 
+Enjoy!
